@@ -1,7 +1,14 @@
+import { Dashboard } from "./components/Dashboard";
+import { Header } from "./components/Header/Index";
+import { GlobalStyle } from "./styles/global";
+
+
 export function App() {
   return (
-    <div className="App">      
-      <h1>Hellow Word</h1>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+      <GlobalStyle />
+    </>
   );
 }
